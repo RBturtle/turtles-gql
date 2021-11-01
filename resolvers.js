@@ -1,6 +1,6 @@
 const fetch = require('node-fetch');
 
-const API_URL = 'https:ghostly-witch-92778.herokuapp.com/'; //'http://localhost:1000/sa';
+const API_URL = 'https:ghostly-witch-92778.herokuapp.com/sa'; //'http://localhost:1000/sa';
 
 const Query = {
     turtle: async (parent, args, context, info) => {
